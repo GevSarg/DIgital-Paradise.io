@@ -1,0 +1,45 @@
+.profile-container {
+  background-color: rgba(255, 255, 255, 0.1);
+  max-width: 450px;
+  margin: 50px auto;
+  padding: 25px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.profile-img {
+  display: block;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+  width: 130px;
+  height: 130px;
+  border: 5px solid #dda0dd;
+}
+
+.profile-info p {
+  font-size: 18px;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.edit-btn {
+  display: inline-block;
+  width: auto;
+  color: #fff;
+  padding: 12px 30px;
+  background-color: #e75ac8;
+  text-decoration: none;
+  border-radius: 25px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  border: 2px solid #dda0dd;
+}
+
+.edit-btn:hover {
+  background-color: #f382da;
+}

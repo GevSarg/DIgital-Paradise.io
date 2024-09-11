@@ -1,0 +1,116 @@
+.login-container {
+  margin: 60px auto 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 2.8rem;
+  letter-spacing: 4px;
+  font-family: "Protest Guerrilla";
+}
+
+.input-field {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 20px;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 24px;
+  cursor: pointer;
+  background-color: #e75ac8;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 2px;
+  transition: 0.2s ease-in-out;
+}
+.login-btn:hover {
+  background-color: #f382da;
+  transform: scale(1.03);
+}
+.login-btn:active {
+  transform: scale(0.98);
+}
+
+.forgot-password {
+  margin-top: 25px;
+  display: block;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-family: "SUSE";
+}
+@media (max-width: 992px) {
+  .login-container {
+    width: 80%;
+  }
+  .input-field {
+    width: 85%;
+  }
+  .login-btn {
+    width: 85%;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  .forgot-password {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 768px) {
+  .login-container {
+    width: 90%;
+  }
+  .input-field {
+    width: 90%;
+    padding: 10px 15px;
+    font-size: 18px;
+  }
+  .login-btn {
+    width: 90%;
+    padding: 9px;
+    font-size: 20px;
+  }
+  h1 {
+    font-size: 1.75rem;
+  }
+  .forgot-password {
+    font-size: 1.1rem;
+  }
+}
+@media (max-width: 768px) {
+  .login-container {
+    width: 90%;
+  }
+  .input-field {
+    width: 90%;
+    padding: 8px 12px;
+    font-size: 16px;
+  }
+  .login-btn {
+    width: 90%;
+    padding: 8px;
+    font-size: 18px;
+  }
+  h1 {
+    font-size: 1.4rem;
+  }
+  .forgot-password {
+    font-size: 1rem;
+  }
+}

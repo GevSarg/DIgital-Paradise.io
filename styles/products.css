@@ -1,0 +1,149 @@
+h1,
+h2 {
+  font-family: "Protest Guerrilla";
+}
+p {
+  font-family: "Roboto";
+}
+h3,
+strong {
+  font-family: "SUSE";
+}
+a {
+  font-family: "Nerko One";
+}
+
+.container {
+  margin: 0 auto;
+}
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 50px auto 80px;
+}
+.product-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+.product {
+  width: 400px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  margin-bottom: 50px;
+  padding: 20px;
+  min-height: 800px;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+.product:hover {
+  transform: scale(1.03);
+  box-shadow: #e76fcd7c 0px 0px 30px 25px, #e76fcd86 0px -12px 30px,
+    #e76fcd86 0px 4px 6px, #e76fcd8b 0px 12px 13px, #e76fcd98 0px -3px 5px;
+}
+.product img {
+  width: 100%;
+  height: 300px;
+  object-fit: contain;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+.product-info h2 {
+  margin: 50px auto;
+  font-size: 2rem;
+}
+.product-info p {
+  margin: 10px 0;
+  letter-spacing: 1px;
+  font-size: 1.1rem;
+}
+.product-info p:last-child {
+  margin-top: 50px;
+}
+@media (max-width: 1440px) {
+  .product {
+    width: 350px;
+  }
+  .product img {
+    height: 280px;
+  }
+  .product-info h2 {
+    font-size: 1.75rem;
+  }
+  .product-info p {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 1200px) {
+  h1 {
+    font-size: 2rem;
+  }
+  .product {
+    min-height: 750px;
+  }
+  .product img {
+    height: 280px;
+  }
+  .product-info h2 {
+    font-size: 1.5rem;
+  }
+  .product-info p {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 992px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+  .product {
+    width: 320px;
+    min-height: 700px;
+  }
+  .product img {
+    height: 250px;
+  }
+  .product-info h2 {
+    font-size: 1.4rem;
+  }
+  .product-info p {
+    font-size: 0.85rem;
+  }
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  .product {
+    width: 250px;
+    min-height: 675px;
+  }
+  .product img {
+    height: 200px;
+  }
+  .product-info h2 {
+    font-size: 1.25rem;
+  }
+  .product-info p {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 576px) {
+  h1 {
+    font-size: 1.4rem;
+  }
+  .product {
+    width: 80%;
+    min-height: 675px;
+  }
+  .product img {
+    height: 250px;
+  }
+  .product-info h2 {
+    font-size: 1.4rem;
+  }
+  .product-info p {
+    font-size: 0.7rem;
+  }
+}
