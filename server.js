@@ -74,7 +74,7 @@ const server = http.createServer(async (request, response) => {
 
   switch (request.url) {
     case "/":
-      filePath = "home.html";
+      filePath = "index.html";
       contentType = "text/html";
       break;
     case "/user":
